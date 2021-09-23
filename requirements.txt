@@ -1,0 +1,10 @@
+altair
+geopandas
+matplotlib
+numpy
+pandas
+pydeck
+requests
+sklearn
+streamlit
+watchdog
