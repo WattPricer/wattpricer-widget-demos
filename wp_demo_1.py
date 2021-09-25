@@ -75,6 +75,10 @@ c = (
 
 st.altair_chart(c, use_container_width=True)
 
+st.text('This visualization was created with data obtained from the following API call:')
+
+st.image('files/ERCOT Demo Script.png')
+
 st.set_option("deprecation.showPyplotGlobalUse", False)
 
 ## Title
@@ -131,6 +135,10 @@ st.pydeck_chart(
         tooltip={"text": "Name: {name}\nType: {type}\nUSD/kWh:{realtime}"},
     )
 )
+
+st.text('This visualization was created with data obtained from the following API call:')
+
+st.image('files/CAISO_Demo_Script.png')
 
 
 ## Title
@@ -198,4 +206,4 @@ st.altair_chart(c, use_container_width=True)
 
 st.text('This visualization was created with data obtained from the following API call:')
 
-st.image('files/ISONE Demo Script.svg', channels='RGB', output_format='auto')
+st.image('files/ISONE Demo Script.png')
