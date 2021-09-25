@@ -195,3 +195,7 @@ c = (
 )
 
 st.altair_chart(c, use_container_width=True)
+
+st.text('This visualization was created with data obtained from the following API call:')
+
+st.image('files/ISONE Demo Script.svg', channels='RGB', output_format='auto')
