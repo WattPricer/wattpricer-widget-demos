@@ -33,8 +33,6 @@ st.subheader("What does the data look like?")
 ## Text
 st.text("The following is a plot generated from the ERCOT data.")
 
-st.text("The following is a plot generated from the ERCOT data.")
-
 st.markdown('[February 13–17, 2021 North American winter storm - Wikipedia](https://en.wikipedia.org/wiki/February_13%E2%80%9317,_2021_North_American_winter_storm)')
 
 
