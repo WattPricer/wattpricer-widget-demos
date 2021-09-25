@@ -20,10 +20,10 @@ st.header("ERCOT Over Time")
 st.subheader("What is this?")
 
 ## Text
-st.text(
+st.markdown(
     "The following graph shows the results of ERCOT's Real-time Energy Prices over time."
 )
-st.text(
+st.markdown(
     "This is a period that includes ERCOT's response to the blizzards of early 2021."
 )
 
@@ -31,7 +31,7 @@ st.text(
 st.subheader("What does the data look like?")
 
 ## Text
-st.text("The following is a plot generated from the ERCOT data.")
+st.markdown("The following is a plot generated from the ERCOT data.")
 
 st.markdown('[February 13–17, 2021 North American winter storm - Wikipedia](https://en.wikipedia.org/wiki/February_13%E2%80%9317,_2021_North_American_winter_storm)')
 
@@ -75,7 +75,7 @@ c = (
 
 st.altair_chart(c, use_container_width=True)
 
-st.text('This visualization was created with data obtained from the following API call:')
+st.markdown('This visualization was created with data obtained from the following API call:')
 
 st.image('files/ERCOT Demo Script.png')
 
@@ -92,10 +92,10 @@ st.header("CAISO Nodes across California")
 st.subheader("What is this?")
 
 ## Text
-st.text(
+st.markdown(
     "The following heatmap shows variation in real-time energy prices acros all of CAISO over the course of a week."
 )
-st.text(
+st.markdown(
     "This is the kind of data that can be collected with WattPricer's real-time endpoint."
 )
 
@@ -103,7 +103,7 @@ st.text(
 st.subheader("What does the data look like?")
 
 ## Text
-st.text(
+st.markdown(
     "The following is a plot generated from the CAISO data (rendered using matplotlib and geopandas)."
 )
 
@@ -136,7 +136,7 @@ st.pydeck_chart(
     )
 )
 
-st.text('This visualization was created with data obtained from the following API call:')
+st.markdown('This visualization was created with data obtained from the following API call:')
 
 st.image('files/CAISO_Demo_Script.png')
 
@@ -152,13 +152,13 @@ st.header("ISONE rates, compared to your latest monthly energy rate")
 st.subheader("What is this?")
 
 ## Text
-st.text(
+st.markdown(
     "The following graph shows the results of ISONE's Real-time Energy Prices one month."
 )
-st.text(
+st.markdown(
     "This also features the option of comparing your latest electricity rate to these real-time prices."
 )
-st.text(
+st.markdown(
     "See whether you're overpaying compared the rest of New England, or how much your current rate is shielding you from price volatility."
 )
 
@@ -166,7 +166,7 @@ st.text(
 st.subheader("What does the data look like?")
 
 ## Text
-st.text("The following is a plot generated from the ERCOT data.")
+st.markdown("The following is a plot generated from the ERCOT data.")
 
 
 st.subheader("Real-time Prices Plot (Interactive)")
@@ -204,6 +204,6 @@ c = (
 
 st.altair_chart(c, use_container_width=True)
 
-st.text('This visualization was created with data obtained from the following API call:')
+st.markdown('This visualization was created with data obtained from the following API call:')
 
 st.image('files/ISONE Demo Script.png')
