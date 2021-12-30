@@ -132,7 +132,7 @@ st.pydeck_chart(
                 get_radius=5000,
             ),
         ],
-        tooltip={"text": "Name: {name}\nType: {type}\nUSD/kWh:{realtime}"},
+        tooltip={"text": "Name: {name}\nType: {type}\nUSD/MWh:{realtime}"},
     )
 )
 
